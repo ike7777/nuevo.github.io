@@ -1,0 +1,145 @@
+
+body {
+    margin: 0%;
+}
+header {
+    display: flex;
+    background-color: aquamarine;    
+    height: 12%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+}
+.logo img {
+    padding: 10px;
+    height: 25px;
+    width: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding-right: 20px;
+    padding-left: 100px;
+}
+
+nav a:hover {
+    color: blanchedalmond;
+}
+.v-bosque {
+    position: absolute;
+    top: 12%;
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+   
+   
+}
+.v-ciudad {
+    
+        position: absolute;
+        top: 162%;
+        object-fit: cover;
+        height: 50%;
+        width: 100%;
+}
+.v-playa {
+    
+    position: absolute;
+    top: 62%;
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+
+}
+.v-cultura {
+    position: absolute;
+    top: 112%;
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+    
+}
+h4 {
+    position: relative;
+    background: linear-gradient(#581845,#900c3f,#c70039,#ff5733,#ffc30f);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: text 5s linear infinite;
+    text-align: center;
+    margin-top: 8.5%;
+    font-family: 'Splash', cursive;
+    font-size: 600%;
+    
+}
+h5 {
+    position: relative;
+    background: linear-gradient(#581845,#900c3f,#c70039,#ff5733,#ffc30f);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: text 5s linear infinite;
+    text-align: center;
+    margin-top: 12%;
+    font-family: 'Splash', cursive;
+    font-size: 600%;
+
+  
+
+
+}
+h6 {
+    position: relative;
+    background: linear-gradient(#581845,#900c3f,#c70039,#ff5733,#ffc30f);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: text 5s linear infinite;
+    text-align: center;
+    margin-top: 12%;
+    font-family: 'Splash', cursive;
+    font-size: 600%;
+
+}
+h1 {
+    
+    position: relative;
+    background: linear-gradient(#581845,#900c3f,#c70039,#ff5733,#ffc30f);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: text 1s linear infinite;
+    text-align: center;
+    margin-top: 12%;
+    font-family: 'Splash', cursive;
+    font-size: 600%;
+
+
+}
+
+
+
+@keyframes   text {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
